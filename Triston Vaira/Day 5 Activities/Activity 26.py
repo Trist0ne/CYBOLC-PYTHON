@@ -1,3 +1,8 @@
 def infinitearguments(*args,**kwargs):
-    for key, value in kwargs.items():
-        print("{0} = {1}".format(key, value))
+    for arg in args:
+        print(arg)
+    keywords = dict(sorted(kwargs.items()))
+    for x,y in keywords.items():
+        print(f"{x}={y}")
+    
+        
