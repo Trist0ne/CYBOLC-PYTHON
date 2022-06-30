@@ -1,3 +1,14 @@
+Use python to produce code below that will perform the following:
+
+Read input from the user, the input will be an integer.
+Determine which of the following categories the number fits into an print this to the user:
+Negative Even
+Negative Odd
+Zero
+Positive Even
+Positive Odd
+
+
 from ast import If
 
 

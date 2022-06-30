@@ -1,3 +1,5 @@
+
+
 def q1(filename,lst):
     with open(filename, 'a') as file:
         while True:
