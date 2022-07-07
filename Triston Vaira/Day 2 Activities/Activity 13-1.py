@@ -1,11 +1,14 @@
-def make_tuple(a,b):
-    '''
-    Returns a tuple of the multiples of 10 from a to b inclusive.
-    Args:
-        None
-    Returns:
-        tuple: a tuple of the multiples of 10 from a to b inclusive
-    '''    
+# def make_tuple(a,b):
+#     '''
+#     Returns a tuple of the multiples of 10 from a to b inclusive.
+#     Args:
+#         None
+#     Returns:
+#         tuple: a tuple of the multiples of 10 from a to b inclusive
+#     '''    
+    
+##############################################################################
+##############################################################################
 
 def make_tuple(a,b):
     c = (b+1)

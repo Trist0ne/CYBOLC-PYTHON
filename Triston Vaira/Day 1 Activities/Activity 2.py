@@ -1,14 +1,15 @@
-Use python to produce code below that will convert several named variables to the indicated data type:
+# Use python to produce code below that will convert several named variables to the indicated data type:
 
-string to int string to float int to string int to float
-Identifier	Starting Value	Convert to Type
-int_input	"345"	int
-pi_4	"3.1415"	float
-hours_str	40	string
-hourly_rate	15	float
-NOTE: Conversion functions must be called NOTE: Do not indent your code
+# string to int string to float int to string int to float
+# Identifier	Starting Value	Convert to Type
+# int_input	"345"	int
+# pi_4	"3.1415"	float
+# hours_str	40	string
+# hourly_rate	15	float
+# NOTE: Conversion functions must be called NOTE: Do not indent your code
 
-
+##############################################################################
+##############################################################################
 
 from asyncore import write
 from itertools import count

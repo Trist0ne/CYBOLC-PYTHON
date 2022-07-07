@@ -1,3 +1,19 @@
+
+# Given a password as a string, return an integer whose bits are set according to the following rules:
+
+# 0x1 - Consists of at least 15 characters
+# 0x2 - Consists of at least 1 number
+# 0x4 - Consists of at least 1 uppercase letter
+# 0x8 - Consists of at least 1 lowercase letter
+# 0x10 - Consists of at least 1 special character (~!"@#$%^&'*_-+=`|(){}[]:;<>,.?/)
+# Note: The set of special characters corresponds exactly with those characters in string.punctuation
+
+# def complexity(password):
+#     pass
+
+##############################################################################
+##############################################################################
+
 import string
 import re
 

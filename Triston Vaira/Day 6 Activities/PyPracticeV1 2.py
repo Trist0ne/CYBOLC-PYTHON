@@ -1,7 +1,10 @@
-Given the variable length argument list, return the average of all the arguments as a float
+# Given the variable length argument list, return the average of all the arguments as a float
 
-def q1(*args):
-    pass
+# def q1(*args):
+#     pass
+
+##############################################################################
+##############################################################################
 
 def q1(*args):
     total = 0

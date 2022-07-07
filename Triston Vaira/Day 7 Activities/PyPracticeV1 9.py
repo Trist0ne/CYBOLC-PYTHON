@@ -1,3 +1,16 @@
+# Given the military time in the argument miltime, return a string containing the greeting of the day.
+
+# 0300-1159 "Good Morning"
+# 1200-1559 "Good Afternoon"
+# 1600-2059 "Good Evening"
+# 2100-0259 "Good Night"
+# def q1(miltime):
+#     pass
+
+##############################################################################
+##############################################################################
+
+
 def q1(miltime):
     if miltime >= 301 and miltime < 1200:
         print("Good Morning")

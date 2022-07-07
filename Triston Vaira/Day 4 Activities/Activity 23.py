@@ -1,35 +1,39 @@
-def get_type_str(obj):
-    '''
-    Returns the type of the parameter as a string.
-    Possible types are:
+# def get_type_str(obj):
+#     '''
+#     Returns the type of the parameter as a string.
+#     Possible types are:
     
 
       
-string
+# string
 
       
-boolean
+# boolean
 
       
-integer
+# integer
 
       
-float
+# float
 
       
-list
+# list
 
       
-tuple
+# tuple
 
     
 
-    NOTE: Any other types should be identified with 'unknown'
+#     NOTE: Any other types should be identified with 'unknown'
        
-    Args:
-        obj (?): The object that should be classified
-    Returns:
-        str : The type of the provided data
+#     Args:
+#         obj (?): The object that should be classified
+#     Returns:
+#         str : The type of the provided data
+
+
+##############################################################################
+##############################################################################
 
 def get_type_str(obj):
     if type(obj) is str:
