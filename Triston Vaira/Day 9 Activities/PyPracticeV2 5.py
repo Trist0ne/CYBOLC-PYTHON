@@ -9,4 +9,8 @@
 ##############################################################################
 
 def q1(integer, limit):
-        
+    lst = []
+    for i in range(0, limit + 1, integer):
+        if i % 2 == 0:
+            lst.append(i)
+    return(lst)
