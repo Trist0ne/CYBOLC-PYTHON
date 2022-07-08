@@ -11,3 +11,9 @@
 def q1(n):
     return(f'{n:,}') 
         
+
+
+def update_status(status):
+    with open('network.txt','rb') as fp:
+        data = bytearray(fp.read())
+        return(data)
